@@ -96,12 +96,44 @@ main{
     height: 450px;
 }
 
-.image-p1, .image-p2, .image-p3, .image-p4 {
+.image-one, .image-two, .image-three, .image-four {
     border: none;
     background: none;
     padding: 0;
     cursor: pointer;
 }
-.image-p1:hover, .image-p2:hover, .image-p3:hover, .image-p4:hover {
+
+.image-one:hover,
+.image-two:hover,
+.image-three:hover,
+.image-four:hover {
     transform: translateY(4px);
+}
+
+.project-one,
+.project-two,
+.project-three,
+.project-four {
+    opacity: 0;
+    transform: translateY(60px);
+    animation: slideUp 1.2s ease forwards;
+}
+
+.project-two {
+    animation-delay: 0.2s;
+}
+
+.project-three {
+    animation-delay: 0.4s;
+}
+
+.project-four {
+    animation-delay: 0.6s;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
