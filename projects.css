@@ -95,3 +95,13 @@ main{
     justify-content: center;
     height: 450px;
 }
+
+.image-p1, .image-p2, .image-p3, .image-p4 {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.image-p1:hover, .image-p2:hover, .image-p3:hover, .image-p4:hover {
+    transform: translateY(4px);
+}

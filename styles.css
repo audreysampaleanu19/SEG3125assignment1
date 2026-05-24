@@ -109,7 +109,7 @@ main {
 @keyframes fadeIn {
   0% {
     opacity: 1;
-    transform: scale(0.1);
+    transform: scale(0.45);
   }
   100% {
     opacity: 1;
@@ -123,7 +123,7 @@ main {
 }
 
 .projects {
-    margin-top: 50px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
@@ -213,5 +213,5 @@ main {
 }
 
 footer {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
